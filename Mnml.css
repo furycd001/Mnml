@@ -1,0 +1,77 @@
+html {
+    background: linear-gradient(145deg, #262933, #2d313d);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.clock {
+    font-size: 2rem;
+    color: #f2a48e;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+.clock:hover {
+    transform: scale(1.05);
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f2a48e;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+}
+
+a:hover {
+    color: #f28b82;
+    transform: translateY(-2px);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+i {
+    font-size: 1.2em;
+}
+
+.ghost {
+    font-family: "Symbols Nerd Font Mono";
+    font-size: 1.2rem;
+    word-spacing: 4px;
+}
